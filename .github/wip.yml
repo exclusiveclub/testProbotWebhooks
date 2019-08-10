@@ -1,0 +1,6 @@
+org: exclusiveclub
+
+wipLimit: 1
+
+canVetoTeams:
+  - administrators
