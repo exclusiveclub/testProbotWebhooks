@@ -1,6 +1,20 @@
-org: exclusiveclub
-
+# Work in progress limit (WIP).
+# The maximum number of open pull requests allowed for the repository.
+# Default is -1 (no limit).
 wipLimit: 1
 
-#canVetoTeams:
-#  - administrators
+# A list of teams (team_slugs) who can override (veto) closing of a PR
+# when the WIP limit is exceeded by reopening a previously closed PR.
+# Default is empty list.
+# canVetoTeams:
+#   - administrators
+
+# A list of GitHub users (usernames) who can override (veto) closing of a
+# PR when the WIP limit is exceeded by reopening a previously closed PR.
+# Default is empty list.
+# canVetoUsers:
+#   - craigmbc
+
+# A message that the app will post to a PR when it closes it.
+# Default is "This pull request was closed because the work-in-progress limit for this repository has been reached."
+# message: some message
