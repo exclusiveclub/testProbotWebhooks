@@ -12,7 +12,8 @@ canVetoTeams: []
 # A list of GitHub users (usernames) who can override (veto) closing of a
 # PR when the WIP limit is exceeded by reopening a previously closed PR.
 # Default: empty array (none).
-canVetoUsers: []
+canVetoUsers:
+  - craigmbc
 
 # A message that the app will post to a PR when it closes it.
 # Default:
