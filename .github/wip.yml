@@ -7,13 +7,14 @@ wipLimit: 201
 # closing of a PR when the WIP limit is exceeded by reopening a previously
 # closed PR.
 # Default: empty array (none).
-canVetoTeams: []
+canVetoTeams:
+  - administrators
 
 # A list of GitHub users (usernames) who can override (veto) closing of a
 # PR when the WIP limit is exceeded by reopening a previously closed PR.
 # Default: empty array (none).
 canVetoUsers:
-  - craigmbc
+  - someUnknownUser
 
 # A message that the app will post to a PR when it closes it.
 # Default:
