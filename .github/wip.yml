@@ -1,22 +1,20 @@
 # Work in progress limit (WIP).
 # The maximum number of open pull requests allowed for this repository.
 # Default: -1 (no limit).
-wipLimit: 201
+# wipLimit: 201
 
 # A list of GitHub organization teams (team_slugs) who can override (veto) 
 # closing of a PR when the WIP limit is exceeded by reopening a previously
 # closed PR.
 # Default: empty array (none).
-canVetoTeams:
-  - someUnknownTeam
+canVetoTeams: []
 
 # A list of GitHub users (usernames) who can override (veto) closing of a
 # PR when the WIP limit is exceeded by reopening a previously closed PR.
 # Default: empty array (none).
-canVetoUsers:
-  - someUnknownUser
+canVetoUsers: []
 
 # A message that the app will post to a PR when it closes it.
 # Default:
 #   "This pull request was closed because the work-in-progress limit for this repository has been reached."
-message: The test message to end all test messages.
+# message: A custom message for this repo.
