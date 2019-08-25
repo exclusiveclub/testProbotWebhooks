@@ -1,7 +1,7 @@
 # Work in progress limit (WIP).
 # The maximum number of open pull requests allowed for this repository.
 # Default: -1 (no limit).
-# wipLimit: 99
+wipLimit: 201
 
 # A list of GitHub organization teams (team_slugs) who can override (veto) 
 # closing of a PR when the WIP limit is exceeded by reopening a previously
